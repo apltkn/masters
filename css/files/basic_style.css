@@ -1,8 +1,8 @@
 /* ------------- ОСНОВНЫЕ ТЕГИ ------------------------------------------------------------------------------ */
 
 body {  /* Тело документа */
-	background-image: url('../images/bg1.png');
-  margin-bottom: 20pt;  	
+	background-image: url('../../images/bg.jpg');
+	margin-bottom: 20pt;
 }
 
 /* Разные кавычки для разных языков (тег <q>) */
@@ -14,8 +14,11 @@ h1 { /* Заголовок страницы */
   font: bold 18pt Century, serif;
   line-height: 100%;
   text-align: center;
-  padding: 0pt 0pt 0pt 0pt; 
+  padding: 0pt 0pt 5pt 0pt; 
   color: #0000a3;
+  background-color: #e7eef0;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 0pt;
 }
 
@@ -42,28 +45,39 @@ h2.cntr { /* Подзаголовок страницы (названия под�
 
 #header h1 { /* ФИО в шапке*/
   text-align: left;
-  font: bold 18pt Century Gothic, serif; 
+  font: bold 18pt Century Gothic, serif;
   line-height: 90%;
-  padding: 4pt 0pt 0pt 0pt;
-  margin-top: 10pt;
+  padding: 10pt 0pt 10pt 10pt;
+  margin: 3pt 0pt 6pt 0pt;
+  background-color: #e7eef0;
+  margin-left: 20%;
+  margin-right: 4%;
 }
 
 #header h2 { /* Тема работы в шапке*/
   font: bold 16pt Century Gothic, serif; 
+  background-color: #e7eef0;
   line-height: 90%;
   color: navy;
   text-indent: 0pt;
-  margin: 0pt;
-  padding: 5pt 0pt 10pt 0pt;
+  margin: 5pt 0pt -5pt 0pt;
+  padding: 10pt 0pt 10pt 10pt;
+  margin-left: 150pt;
+  margin-left: 20%;
+  margin-right: 4%;
 }
 
 #header h3 { /* Факультет, кафедра, преподаватель в шапке*/
   font: 14pt Century Gothic, serif; 
+  background-color: #e7eef0;
   line-height: 100%;
   color: navy;
   text-indent: 0pt;
   margin: 0pt;
-  padding: 5pt 0pt 10pt 0pt;
+  padding: 2pt 0pt 2pt 10pt;
+  margin-left: 150pt;
+  margin-left: 20%;
+  margin-right: 4%;
 }
 
 p { /* Абзац */
@@ -76,7 +90,9 @@ p { /* Абзац */
 }
 
 img { 
-border: 0; 
+	border: 0;
+	margin-left: 37%;
+	background: #e7eef0;
 }
 
 ol { /* Нумерованный список */
@@ -135,8 +151,10 @@ a:visited { /* Посещенная ссылка */
 /* ------------- ОСНОВНЫЕ БЛОКИ ----------------------------------------------------------------------------- */
 
 #topblock { /* Верхний блок (Флаги и ДоННТУ) */
-	min-height: 36px;		
-  border-bottom: solid 1pt #b4cdd4;	
+	min-height: 36px;
+	margin-left: 6%;
+	margin-right: 5%;
+	background: #e7eef0;
 }
 
 #langbox { /* Блок флагов */
