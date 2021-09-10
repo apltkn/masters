@@ -18,6 +18,7 @@
 	background: #e7eef0;	
 	margin-left: 60pt;
 	margin-right: 50pt;
+	color: blue;
 }
 
 #menub { /* Блок нижнего меню */
@@ -27,6 +28,7 @@
 	background: #e7eef0;	
 	margin-left: 60pt;
 	margin-right: 50pt;
+	color: blue;
 }
 
 .mitemb { /* Пункт нижнего меню */

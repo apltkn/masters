@@ -146,12 +146,12 @@ a {       /*простая ссылка*/
 	margin-left: 60pt;
 	margin-right: 50pt;
 	background: #e7eef0;
+	color: blue;
 }
 
 #langbox { /* Блок флагов */
 	float: left;
 	font: 12pt Century, serif;
-	color: blue;
   padding: 5pt 0pt 0pt 5pt;
 }
 
