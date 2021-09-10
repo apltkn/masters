@@ -17,8 +17,8 @@ h1 { /* Заголовок страницы */
   padding: 0pt 0pt 5pt 0pt; 
   color: #0000a3;
   background-color: #e7eef0;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 50pt;
+  margin-right: 50pt;
   margin-top: 0pt;
 }
 
@@ -51,7 +51,7 @@ h2.cntr { /* Подзаголовок страницы (названия под�
   margin: 0pt 0pt 8pt 0pt;
   background-color: #e7eef0;
   margin-left: 195pt;
-  margin-right: 4%;
+  margin-right: 40pt;
 }
 
 #header h2 { /* Тема работы в шапке*/
@@ -62,9 +62,8 @@ h2.cntr { /* Подзаголовок страницы (названия под�
   text-indent: 0pt;
   margin: 8pt 0pt -5pt 0pt;
   padding: 10pt 0pt 10pt 10pt;
-  margin-left: 150pt;
   margin-left: 195pt;
-  margin-right: 4%;
+  margin-right: 40pt;
 }
 
 #header h3 { /* Факультет, кафедра, преподаватель в шапке*/
@@ -75,9 +74,8 @@ h2.cntr { /* Подзаголовок страницы (названия под�
   text-indent: 0pt;
   margin: 0pt;
   padding: 2pt 0pt 2pt 10pt;
-  margin-left: 150pt;
   margin-left: 195pt;
-  margin-right: 4%;
+  margin-right: 40pt;
 }
 
 p { /* Абзац */
@@ -152,8 +150,8 @@ a:visited { /* Посещенная ссылка */
 
 #topblock { /* Верхний блок (Флаги и ДоННТУ) */
 	min-height: 36px;
-	margin-left: 6%;
-	margin-right: 5%;
+	margin-left: 60pt;
+	margin-right: 50pt;
 	background: #e7eef0;
 }
 
@@ -221,8 +219,7 @@ a:visited { /* Посещенная ссылка */
 /* ------------- ТАБЛИЦА РЕЗЮМЕ ----------------------------------------------------------------------------- */
 
 table#resume { /* Сама таблица */ 
-	width: 90%;
-	margin: 0 auto;
+	margin: 0pt 50pt 0pt 50pt;
 	margin-bottom: 0pt;
 }
 
