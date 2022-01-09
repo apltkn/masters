@@ -1,24 +1,24 @@
-ru
+﻿ru
 Полятыкин Александр Сергеевич
 Оптимизация аппаратурных затрат в логических схемах устройств управления
-Компьютерные системы и сети
+Программная инженерия
 
 ua
 Полятикін Олександр Сергійович
-Оптимізація витрат апаратури в логічних схемах пристроїв керування
-Компьютерні системи та мережі
+Автоматизація статистичного аналізу даних у системах оцінки медіа
+Програмна інженерія
 
 en
 Poliatykin Aleksandr
-Hardware optimization in logic circuits of control units
-Computer systems and networks
+Automation of statistical data analysis in media assessment systems
+Software engineering
 
 fr
-Ivan Ivanenko
-L'optimisation du materiel dans les circuits logiques des unites de controle
-Les systemes informatiques et des reseaux
+Poliatykin Aleksandr
+Automatisation de l'analyse des données statistiques dans les systèmes d'évaluation des médias 
+Génie logiciel
 
 ge
-Ivan Iwanenko
-Hardware-Optimierung in Logikschaltungen von Steuergeraten
-Computersysteme und Netzwerke
+Polyatykin Alexander
+Optimierung der Hardwarekosten in Logikschaltungen von Steuergeräten
+Softwareentwicklung

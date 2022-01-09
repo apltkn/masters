@@ -7,6 +7,8 @@
  	font: 14pt/120% Times new roman, serif;
 	line-height: 110%;
   padding: 15pt 0pt 15pt 10pt;
+  margin-left: 50pt;
+  margin-right: 50pt;
 	position: relative; 
 	display: block;
 }

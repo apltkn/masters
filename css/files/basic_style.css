@@ -1,9 +1,7 @@
 /* ------------- ОСНОВНЫЕ ТЕГИ ------------------------------------------------------------------------------ */
 
 body {  /* Тело документа */
-	background-image: url('../../images/bg.jpg');
-	background-attachment: fixed;
-	margin-bottom: 20pt;
+	background-color: black;
 }
 
 /* Разные кавычки для разных языков (тег <q>) */
@@ -27,16 +25,20 @@ h2 { /* Подзаголовок страницы (названия подраз
   font: bold 15pt Century, serif;
   text-align: left;
   text-indent: 25pt;
-  margin: 20pt 10pt 10pt 10pt;
+  margin: 10pt 0pt 10pt 0pt;
+  padding: 0pt 0pt 5pt 0pt;
   color: #0000a3;
+  background-color: #e7eef0;
 }
 
 h3 { /* Подзаголовок страницы (названия подподразделов) */
   font: bold 13pt Century, serif;
   text-align: left;
   text-indent: 10pt;
-  margin: 20pt 10pt 0pt 10pt;
+  margin: 10pt 0pt 10pt 0pt;
+  padding: 0pt 0pt 5pt 0pt;
   color: #0000a3;
+  background-color: #e7eef0;
 }
 
 h2.cntr { /* Подзаголовок страницы (названия подразделов) с выравниванием по центру */
@@ -85,12 +87,12 @@ p { /* Абзац */
 	margin: 0pt 0pt 0pt 0pt;
 	padding: 2pt 15pt 3pt 15pt;   		
 	text-align: justify;
-
+  background-color: #e7eef0;
 }
 
 img { 
 	border: 0;
-	margin-left: 37%;
+	text-align: center;
 	background: #e7eef0;
 }
 
@@ -104,22 +106,26 @@ ol h2 { /* Заголовок внутри нумерованного списк
 	margin: 30pt 10pt 10pt 0pt;
 }
 
-p + ol { margin-top: 0pt;} /* Если нумерованный список идет сразу после абзаца - отступ не нужен */
+p + ol { margin-top: 0pt;
+  background-color: #e7eef0;
+  margin: 10pt 0pt 10pt 0pt;} /* Если нумерованный список идет сразу после абзаца - отступ не нужен */
 
-ul { /* Ненумерованный список */
+ul, ol { /* Ненумерованный список */
 	text-indent: 0pt;
 	margin: 0pt;
+  background-color: #e7eef0;
+  margin: 10pt 0pt 10pt 0pt;
 }
 
 ul.content { /* Содержание в реферате */
-	margin-left: 5pt;
+	margin-left: 0pt;
   list-style-type: none;
 }
 
 li { /* Элемент списка */
   margin-left: 25pt;
   font: 15pt Times new roman, serif;
-  padding: 0 5pt 5pt 0pt; 
+  background-color: #e7eef0;
 }
 
 li.ct1 { /* Элемент содержания в реферате (уровень 1) */
@@ -142,7 +148,7 @@ a {       /*простая ссылка*/
 /* ------------- ОСНОВНЫЕ БЛОКИ ----------------------------------------------------------------------------- */
 
 #topblock { /* Верхний блок (Флаги и ДоННТУ) */
-	min-height: 36px;
+	min-height: 60px;
 	margin-left: 60pt;
 	margin-right: 50pt;
 	background: #e7eef0;
@@ -153,11 +159,12 @@ a {       /*простая ссылка*/
 	float: left;
 	font: 12pt Century, serif;
   padding: 5pt 0pt 0pt 5pt;
+  width: 0;
 }
 
 #donntu { /* Блок ДонНТУ и портала магистров */
 	float: right;
-	padding: 5pt 5pt 0pt 0pt;	
+	padding: 12pt 5pt 0pt 0pt;	
 	margin: 0pt 3pt 0pt 3pt;
 }
 
@@ -173,7 +180,7 @@ a {       /*простая ссылка*/
 #photomag { /* Блок фотографии */
 	float: left;
 	width: 180px;
-  padding: 10pt 20pt 10pt 10pt;  
+  padding: 10pt 20pt 10pt 60pt;  
 }
 
 #header { /* Блок шапки (фотография и текст) */
@@ -206,6 +213,10 @@ a {       /*простая ссылка*/
   text-indent: 0;
 }
 
+/*#maintext {
+  background-color: #e7eef0;
+}*/
+
 .cntr { text-align: center; } /* Выравнивание по центру */
 .bld {font-weight: bold;}     /* Полужирный */
 .itl {font-style: italic;}    /* Курсив */
@@ -214,8 +225,7 @@ a {       /*простая ссылка*/
 /* ------------- ТАБЛИЦА РЕЗЮМЕ ----------------------------------------------------------------------------- */
 
 table#resume { /* Сама таблица */ 
-	margin: 0pt 50pt 0pt 50pt;
-	margin-bottom: 0pt;
+	margin: 0pt;
 }
 
 table#resume tr td {  /* Ячейка в таблице */
@@ -279,6 +289,7 @@ table.search { /* Сама таблица */
   border-collapse:collapse;
   padding:0px;
   text-align: center;
+  background-color: beige;
 }
 
 table.search tr td { /* Ячейка в таблице */	
@@ -336,13 +347,7 @@ table.search td.cn a:hover { color: firebrick; }    /* Подсвеченная 
 	font: 14pt/100% Century, serif;
 	padding: .4em .6em .5em;
 	text-shadow: 0px 1px 1px rgba(0,0,0,.3);
-  margin: .5em .15em .0em .15em; 
-	-webkit-border-radius: .4em; 
-	-moz-border-radius: .4em;
-	border-radius: .4em;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.2);
-	box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+  margin: .5em .15em .0em .15em;
 }
 .button:active { /* Нажатая кнопка */
 	position: relative;
